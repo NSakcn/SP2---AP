@@ -27,4 +27,7 @@ Maintenant que votre projet VS code est relié à GitHub, il faut voir comment f
 
 1. Appuyez sur ce logo : <br><br> ![logo branche](logogit.jpg)
 2. Pour "tracker" les documents dont vous voulez faire remonter les maj, positionnez vous dessus et cochez le "+" nommé "Stage changes"
-3. Maintenant que les fichiers du projet son trackés, il faut faire remonter les maj, appuyez donc sur commit
+3. Maintenant que les fichiers du projet son trackés, il faut faire remonter les maj, appuyez donc sur commit (le premier commit demande une connexion à GitHub)
+4. Ensuite, il faudra décrire le commit puis appuyer sur commit
+5. Appuyez sur Sinc Changes
+6. Acceptez le fait de ramener la maj à la branche Main, le dépot est donc maintenant mis à jour avec donc un accès aux versions antérieures
