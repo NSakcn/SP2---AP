@@ -31,3 +31,22 @@ Maintenant que votre projet VS code est relié à GitHub, il faut voir comment f
 4. Ensuite, il faudra décrire le commit puis appuyer sur commit
 5. Appuyez sur Sinc Changes
 6. Acceptez le fait de ramener la maj à la branche Main, le dépot est donc maintenant mis à jour avec donc un accès aux versions antérieures
+
+
+## Troisième étape - Création d'un site statique avec **MkDocs** pour notre documentation
+
+
+Créer un premier document yaml pour spécifier les information et la structure de notre site MkDocs
+<br>
+Par exemple :
+<br>
+`site_name: doc1` *nom du site* <br>
+`docs_dir: SP2---AP` *repertoire de la documentation md*<br>
+`theme: readthedocs` *thème par défaut MkDocs*<br>
+
+Installer mkdocs dans le cmd : `py -m pip install mkdocs` <br>
+, le fichier yaml doit se trouver au noeud précédent, une fois cela fait : `py -m mkdocs serve` pour déployer la documentation. <br>
+
+Ici MkDocs nous à donc permis de créer un site statique local pour afficher de manière ordonnée notre documentation, hors nous souhaitons l'héberger avec GitHub Pages pour pouvoir la publier en ligne. 
+
+## Quatrème étape - Héberger notre site statique sur **GitHub Pages**
